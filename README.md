@@ -12,6 +12,8 @@ Instance Segmentation: Converting the bounding box into a highly precise, pixel-
 Generative Inpainting: Using the mask to isolate the target area and synthesizing new visual elements based on the prompt, ensuring the new generation matches the existing lighting and depth geometry.
 
 3. Tools and Frameworks Used
+
+   
 A. Hugging Face Ecosystem (transformers, diffusers)
 Why I chose it: Hugging Face provides rapid, standardized access to foundational AI models. Using these libraries allowed me to download, configure, and push heavy models to the GPU with minimal boilerplate, which was critical for rapid prototyping within the time limit.
 
@@ -37,6 +39,6 @@ Role: Interactive Web User Interface.
 
 Why I chose it: Gradio is the industry standard for wrapping Python machine learning pipelines into shareable web applications. It allowed me to instantly visualize intermediate steps (like the SAM mask) alongside the final output, providing a clean, professional testing environment directly from Google Colab.
 
-Future Improvements:
+4. Future Improvements:
 This models is running very slow. Future improvements would include better optimization for faster working for this model.
 
